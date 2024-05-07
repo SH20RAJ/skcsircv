@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const runtime = "edge";
 
 export const metadata = {
-  title: "Dr. Rajat Subhra Goswami",
-  description: "Dr. Rajat Subhra Goswami || CV",
+  title: "Dr. Swarnendu Kumar Chakraborty",
+  description: "Dr. Swarnendu Kumar Chakraborty || CV",
 };
 
 export default function RootLayout({ children }) {

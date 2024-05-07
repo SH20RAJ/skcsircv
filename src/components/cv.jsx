@@ -163,7 +163,7 @@ export function CV() {
       <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Patents</h2>
       <div className="flex flex-col">
         <div>
-          <h2 className=" text-4xl p-10">Patents</h2>
+          {/* <h2 className=" text-4xl p-10">Patents</h2> */}
 
           <table>
             <tbody>
