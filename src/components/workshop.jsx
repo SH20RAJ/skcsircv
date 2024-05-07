@@ -23,65 +23,93 @@ import { CardTitle, CardDescription, CardHeader, Card } from "@/components/ui/ca
 export function Workshop() {
   return (
     <main className="w-full max-w-4xl mx-auto px-4 py-12 md:py-16 lg:py-20">
-      <div className="space-y-8">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Workshop/Conference Attended</h1>
-          <p className="mt-4 max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
-            Highlighting participation in significant blockchain technology events.
-          </p>
-        </div>
-        <div className="grid gap-6 sm:grid-cols-2">
-          <Card className="card p-2">
-            <CardHeader>
-              <CardTitle>Blockchain Technology Workshop</CardTitle>
-              <CardDescription>
-                <div className="space-y-2">
-                  <p>
-                    <span className="font-medium">Institute:</span> National Institute of Technology Arunachal Pradesh
-                  </p>
-                  <p>
-                    <span className="font-medium">Date:</span> 10th-14th February, 2020
-                  </p>
-                  <p>
-                    <span className="font-medium">Type:</span> National
-                  </p>
-                  <p>
-                    <span className="font-medium">Place:</span> Yupia, Papum Pare, Arunachal Pradesh
-                  </p>
-                  <p>
-                    <span className="font-medium">Organised by:</span> Dr. Rajat Subhra Goswami
-                  </p>
-                </div>
-              </CardDescription>
-            </CardHeader>
-          </Card>
-          <Card className="card p-2">
-            <CardHeader>
-              <CardTitle>Blockchain Technology Conference</CardTitle>
-              <CardDescription>
-                <div className="space-y-2">
-                  <p>
-                    <span className="font-medium">Institute:</span> National Institute of Technology Arunachal Pradesh
-                  </p>
-                  <p>
-                    <span className="font-medium">Date:</span> 14th-18th December, 2020
-                  </p>
-                  <p>
-                    <span className="font-medium">Type:</span> National
-                  </p>
-                  <p>
-                    <span className="font-medium">Place:</span> Yupia, Arunachal Pradesh
-                  </p>
-                  <p>
-                    <span className="font-medium">Organised by:</span> Dr. Rajat Subhra Goswami
-                  </p>
-                </div>
-              </CardDescription>
-            </CardHeader>
-          </Card>
-        </div>
-      </div>
-    </main>
+  <div className="space-y-8">
+    <div className="text-center">
+      <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Workshop/Conference Attended</h1>
+      <p className="mt-4 max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
+        Highlighting participation in significant blockchain technology events.
+      </p>
+    </div>
+    <div className="grid gap-6 sm:grid-cols-2">
+      <Card className="card p-2">
+        <CardHeader>
+          <CardTitle>Control, Instrumentation, Energy and Communication</CardTitle>
+          <CardDescription>
+            <div className="space-y-2">
+              <p>
+                <span className="font-medium">Institute:</span> Control, Instrumentation, Energy and Communication, January 2014, Department of Applied Physics University of Calcutta, WB, India
+              </p>
+              <p>
+                <span className="font-medium">Date:</span> 2014
+              </p>
+              <p>
+                <span className="font-medium">Attended by:</span> Dr. Swarnendu Kumar Chakraborty
+              </p>
+            </div>
+          </CardDescription>
+        </CardHeader>
+      </Card>
+      <Card className="card p-2">
+        <CardHeader>
+          <CardTitle>100th Indian Science Congress</CardTitle>
+          <CardDescription>
+            <div className="space-y-2">
+              <p>
+                <span className="font-medium">Institute:</span> 100th Indian Science Congress, Jaunary 2013, Kolkata, India
+              </p>
+              <p>
+                <span className="font-medium">Date:</span> 2013
+              </p>
+              <p>
+                <span className="font-medium">Attended by:</span> Dr. Swarnendu Kumar Chakraborty
+              </p>
+            </div>
+          </CardDescription>
+        </CardHeader>
+      </Card>
+      <Card className="card p-2">
+        <CardHeader>
+          <CardTitle>North-Eastern Regional Science Congress</CardTitle>
+          <CardDescription>
+            <div className="space-y-2">
+              <p>
+                <span className="font-medium">Institute:</span> North-Eastern Regional Science Congress, March 2013, NIT-Arunachal Pradesh in association with Indian Science Congress Association, Kolkata, WB, India
+              </p>
+              <p>
+                <span className="font-medium">Date:</span> 2013
+              </p>
+              <p>
+                <span className="font-medium">Attended by:</span> Dr. Swarnendu Kumar Chakraborty
+              </p>
+            </div>
+          </CardDescription>
+        </CardHeader>
+      </Card>
+      <Card className="card p-2">
+        <CardHeader>
+          <CardTitle>Information Technolgy: New Generation</CardTitle>
+          <CardDescription>
+            <div className="space-y-2">
+              <p>
+                <span className="font-medium">Institute:</span> Information Technolgy: New Generation, April 2013, Dept. of Electrical & Computer Engineering, University of Nevada, Las Vegas 4505 Maryland Parkway, Las Vegas, USA
+              </p>
+              <p>
+                <span className="font-medium">Date:</span> 2013
+              </p>
+              <p>
+                <span className="font-medium">Type:</span> International
+              </p>
+              <p>
+                <span className="font-medium">Attended by:</span> Dr. Swarnendu Kumar Chakraborty
+              </p>
+            </div>
+          </CardDescription>
+        </CardHeader>
+      </Card>
+    </div>
+  </div>
+</main>
+
   );
 }
 
