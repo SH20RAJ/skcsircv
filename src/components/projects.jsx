@@ -21,90 +21,80 @@ import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/com
 export function Projects() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 min-h-screen">
-      <div className="container px-4 md:px-6">
-        <div className="space-y-6">
-          <div className="space-y-8">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Research Projects</h2>
-            <p className="max-w-[700px] text-gray-500 md:text-xl leading-relaxed lg:text-base leading-relaxed xl:text-xl leading-relaxed dark:text-gray-400">
-              Explore our ongoing and completed research projects in blockchain technology and cryptography.
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">
-            <Card className="card p-2">
-              <CardHeader>
-                <CardTitle>Blockchain Technology Fit Assessment Framework for Health Care</CardTitle>
-                <CardDescription>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2 text-sm">
-                      <WalletIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">Seed Grant (TEQIP-3)</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <UserIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">Dr. R S Goswami</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <CalendarIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">2019 - 2020</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <DollarSignIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">₹2 Lakh</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <ClipboardCheckIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">Ongoing</span>
-                    </div>
-                  </div>
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  This project aims to develop a framework for assessing the fit of blockchain technology within
-                  healthcare settings, enhancing security and efficiency.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="card p-2">
-              <CardHeader>
-                <CardTitle>Study and Analysis on KVNBB Technique in AVK Cryptography</CardTitle>
-                <CardDescription>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2 text-sm">
-                      <WalletIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">NIT Arunachal Pradesh</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <UserIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">Dr. R S Goswami, Dr. M P Dutta, Dr. S K Chakraborty</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <CalendarIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">2016 - 2017</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <DollarSignIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">₹5 Lakh</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-sm">
-                      <ClipboardCheckIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-                      <span className="text-gray-500 dark:text-gray-400">Completed</span>
-                    </div>
-                  </div>
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  This completed project explored the New Technique Key Variation with Noise Burst Bit (KVNBB) in
-                  Automatic Variable Key (AVK) systems in cryptography to improve security protocols against various
-                  cyber threats.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
+  <div className="container px-4 md:px-6">
+    <div className="space-y-6">
+      <div className="space-y-8">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Research Projects</h2>
+        <p className="max-w-[700px] text-gray-500 md:text-xl leading-relaxed lg:text-base leading-relaxed xl:text-xl leading-relaxed dark:text-gray-400">
+          Explore our ongoing and completed research projects in blockchain technology and cryptography.
+        </p>
       </div>
-    </section>
+      <div className="grid gap-6 md:grid-cols-1">
+        <Card className="card p-2 w-full">
+          <CardHeader>
+            <CardTitle>Study and Analysis on New Technique "Key Variation with Noise Burst Bit (KVNBB) in automatic variable key (AVK) in Cryptography"</CardTitle>
+            <br />
+            <CardDescription>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm">
+                  <WalletIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">NIT Arunachal Pradesh</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <UserIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">Dr. R. S. Goswami, Dr. M. P. Dutta, Dr. S. K. Chakraborty</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <CalendarIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">2016 - 2017</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <DollarSignIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">₹5,00,000</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <ClipboardCheckIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">Completed</span>
+                </div>
+              </div>
+            </CardDescription>
+          </CardHeader>
+        </Card>
+        <Card className="card p-2 w-full">
+          <CardHeader>
+            <CardTitle>SMDP-C2SD (Chip to System Design)</CardTitle>
+            <br />
+            <CardDescription>
+              <div className="space-y-2">
+                <div className="flex items-center gap-2 text-sm">
+                  <WalletIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">MEITY</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <UserIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">Dr. A. Majumder & Dr. S. K. Chakraborty (Co-PI)</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <CalendarIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">2015 - 2016</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <DollarSignIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">₹53,88,000/-</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <ClipboardCheckIcon className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+                  <span className="text-gray-500 dark:text-gray-400">Completed</span>
+                </div>
+              </div>
+            </CardDescription>
+          </CardHeader>
+        </Card>
+      </div>
+    </div>
+  </div>
+</section>
+
   );
 }
 
